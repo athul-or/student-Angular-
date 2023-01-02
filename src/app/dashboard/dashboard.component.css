@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container-fluid {
+    margin-right: 20px;
+}
+
+.nav-item {
+    /* font-size: 18px; */
+    font-weight: 400;
+    /* margin: 6px; */
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar{
+    background-color: rgb(31, 191, 143);
+
+}
+
+.title{
+    font-family: 'Righteous', cursive;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+
+
+.intro {
+    width: 100%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.desc{
+    height: 670px;
+    padding-top: 120px;
+    padding-left: 70px;
+    color: rgb(31, 191, 143);
+    overflow: hidden;
+}
+
+.img1{
+    width: 50%;
+    height: 100%;
+}
+
+.desc h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.desc p{
+    color: rgb(129, 133, 136);
+    font-size: 24px;
+}
+
+.img1 img{
+    width: 644px;
+    height: 552px;
+   margin-top:40px;
+    padding-left: 41px;
+}
+
+.c-title {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(31, 191, 143);
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.c-title h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+}
+
+#courses{
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+   
+}
+.div1{
+    display: flex;
+    background-color:rgb(31, 191, 143);
+    height: 750px;
+}
+
+.card{
+    margin-top: 30px;
+    margin-left: 120px;
+    height: 650px;
+    width: 350px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+ .card-body{
+
+    margin-top: 20px;
+    /* display: flex; */
+    align-items: center;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.011);
+    transition: 0.5s all ease;
+    
+}
+
+.card:hover b{
+    color:  rgb(22, 120, 97);
+}
+
+.card:hover .btn{
+    background-color: rgb(65, 162, 117);
+    color: white;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 10px;
+    object-fit: cover;
+    
+}
+
+b{
+    color: rgb(31, 191, 143);
+}
+
+
+
+
+.float{
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color: rgb(73, 109, 225);
+	color:#FFF;
+	border-radius:50px;
+    display: flex;
+    justify-content: center;
+	text-align:center;
+    font-size:30px;
+}
+
+
+footer{
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+}
+
+footer h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons a{
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons a:hover{
+    color: #45fa87;
+    transition: 0.5s all ease;
+    transform: scale(1.01);
+}
+
+.menu a{
+    color:rgb(31, 191, 143);;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #044026d6;
+    transition: 0.5s;
+}
+
+.footer-copyright{
+    background-color:rgb(31, 191, 143);;
+    color:rgb(255, 248, 248);;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p{
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+
+.icons .fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 46px;
+    height: 44px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 15px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+ footer .foot-h{
+    color:rgb(31, 191, 143);;
+    font-family: 'Righteous', cursive;
+
+  }
+
+
+.s1 .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+.s1:hover .middle {
+    opacity: 1;
+}
+
+.s2:hover .middle {
+    opacity: 1;
+}
+
+
+.s3:hover .middle {
+    opacity: 1;
+}
+
+.s4:hover .middle {
+    opacity: 1;
+}
+
+.text img {
+    width: 50px;
+    height: 35px;
+}
